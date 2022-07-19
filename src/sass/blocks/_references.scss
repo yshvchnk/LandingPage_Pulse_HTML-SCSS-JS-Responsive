@@ -1,0 +1,36 @@
+.references{
+    min-height: 920px;
+    padding-bottom: 48px;
+    &__wrapper {
+        padding: 0 0;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        &__image {
+            height: 169px;
+            width: 169px;
+        }
+        &__element {
+            margin-left: 60px;
+        }
+        &__name {
+            font-weight: 700;
+            font-size: 18px;
+            color: #0D0D0D;
+        }
+        &__subtitle {
+            font-weight: 500;
+            font-size: 14px;
+            color: #646464;
+        }
+        &__text {
+            margin-top: 10px;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            color: #0D0D0D;
+        }
+    }
+}
